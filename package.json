@@ -1,0 +1,13 @@
+{
+  "name": "env-file-reader",
+  "version": "1.0.0",
+  "main": "src/env-file-reader.js",
+  "author": "Andreas Waigand <mail@andreaswaigand.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
