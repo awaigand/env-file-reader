@@ -53,6 +53,6 @@ function parseEnvString(data, {
 }
 
 module.exports = {
-  parseEnvFile,
-  parseEnvString
+  parse: parseEnvFile,
+  parseString: parseEnvString
 };

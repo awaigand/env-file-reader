@@ -1,7 +1,13 @@
 {
   "name": "env-file-reader",
   "version": "1.0.0",
-  "main": "src/env-file-reader.js",
+  "description": "A simple script for reading (Docker) .env files into a JSON Object.",
+  "keywords": [
+    ".env",
+    "environmental variables",
+    "Docker"
+  ],
+  "main": "index.js",
   "author": "Andreas Waigand <mail@andreaswaigand.com>",
   "license": "MIT",
   "devDependencies": {

@@ -1,4 +1,4 @@
-var envStringParse = require('./src/env-file-reader.js').parseEnvString;
+var envStringParse = require('.').parseString;
 import test from 'ava';
 
 const SIMPLE_FILE=`VAR1=test
