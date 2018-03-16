@@ -29,7 +29,7 @@ VAR_3=is cool
 
 ```js
 var parseEnvFile = require('env-file-reader').parse;
-var envs = parse('dev.env'):
+var envs = parseEnvFile('dev.env');
 /*
     envs.VAR_1:"my first var",
     envs.VAR_2:"my second var is cool",
