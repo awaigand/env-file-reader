@@ -5,7 +5,7 @@ function parseEnvFile (file, {
   delimiter = ['$', '']
 } = {}) {
   var data = fs.readFileSync(file, 'utf-8');
-  parseEnvString(data, {exclude, delimiter})
+  return parseEnvString(data, {exclude, delimiter})
 }
 
 function parseEnvString(data, {
