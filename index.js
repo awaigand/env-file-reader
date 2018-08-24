@@ -13,7 +13,7 @@ function parseEnvString(data, {
   delimiter = ['$', '']
 } = {}){
   var resultEnvMap = {};
-  const EXTRACT_ENV_NAME_AND_VALUE_REGEX = /^([^= ]+)=(\S+)/gm;
+  const EXTRACT_ENV_NAME_AND_VALUE_REGEX = /^([^= ]+)=([^\n]*)/gm;
   var results;
   while ((results = EXTRACT_ENV_NAME_AND_VALUE_REGEX.exec(data)) !== null) {
     let variableName = results[1].trim();
