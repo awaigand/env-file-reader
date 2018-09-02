@@ -15,6 +15,9 @@ VAR2=part
 VAR3=variable
 VAR4=$VAR1$VAR2$VAR3`;
 
+const VARIABLES_WITH_SPACES=`VAR1=multi space variable
+VAR2=l o t s o f s p a c e s`;
+
 const ALL_KINDS_OF_ALLOWED_NAMES=`_=test1
 A=test2
 a=test3
@@ -60,5 +63,11 @@ test('All Kinds Of Allowed Names', async t => {
 test('All Kinds Of Allowed Names Recursive', async t => {
 	var result = envStringParse(ALL_KINDS_OF_ALLOWED_NAMES_RECURSIVE);
     t.is(result['__'],'recursive');
+})
+
+test('Variables with spaces', async t => {
+    var result = envStringParse(VARIABLES_WITH_SPACES);
+    t.is(result['VAR1'], 'multi space variable');
+    t.is(result['VAR2'], 'l o t s o f s p a c e s');
 })
 
