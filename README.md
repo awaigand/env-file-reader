@@ -1,6 +1,6 @@
 # env-file-reader
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)[![Build Status](https://travis-ci.com/awaigand/env-file-reader.svg?branch=master)](https://travis-ci.com/awaigand/env-file-reader)
 
 A simple script for reading (Docker) .env files into a JSON Object 
 
