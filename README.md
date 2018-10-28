@@ -14,7 +14,7 @@ npm install env-file-reader --save
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/env-file-reader.png)](https://www.npmjs.com/package/env-file-reader)
+[![NPM](https://nodei.co/npm/env-file-reader.png)](https://www.npmjs.com/package/env-file-reader) [![Greenkeeper badge](https://badges.greenkeeper.io/awaigand/env-file-reader.svg)](https://greenkeeper.io/)
 
 You can use this package for parsing .env files, regularly used by Docker containers, into a JSON Object. You could, for example, read out the env file to use it in your local non-docker testing by replacing it in some file during built.
 
