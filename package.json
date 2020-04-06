@@ -15,9 +15,15 @@
   "author": "Andreas Waigand <mail@andreaswaigand.com>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^3.6.0",
+    "esm": "^3.2.25"
   },
   "scripts": {
     "test": "ava"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
   }
 }
