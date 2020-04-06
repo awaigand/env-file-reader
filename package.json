@@ -1,6 +1,6 @@
 {
   "name": "env-file-reader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple script for reading (Docker) .env files into a JSON Object.",
   "keywords": [
     ".env",
